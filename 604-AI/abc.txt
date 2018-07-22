@@ -1,10 +1,8 @@
 hhiuhiuhi
-<<<<<<< HEAD
+
 \
 fsdfsd 
 dsfsdf
-sdfsdf sfsdf
-=======
-
+sdfsdf sfsd
 hgfhgfhgf
->>>>>>> test
+
