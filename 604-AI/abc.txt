@@ -1,5 +1,10 @@
 hhiuhiuhi
+<<<<<<< HEAD
 \
 fsdfsd 
 dsfsdf
 sdfsdf sfsdf
+=======
+
+hgfhgfhgf
+>>>>>>> test
