@@ -1,0 +1,62 @@
+package Calculator;
+
+public class ScientificCalculator {
+
+	
+	public int add(int x, int y) {
+		return x + y;
+	}
+	
+	public double add(double x, int y) {
+		return x + y;
+	}
+	
+	
+	public double add(int x, double y) {
+		return x + y;
+	}
+	
+	public double add(double x, double y) {
+		return x + y;
+	}
+	
+	public int sub(int x, int y) {
+		return x - y;
+	}
+	
+	public double sub(double x, int y) {
+		return x - y;
+	}
+	
+	
+	public double sub(int x, double y) {
+		return x - y;
+	}
+	
+	public double sub(double x, double y) {
+		return x - y;
+	}
+	
+	public int mul(int x, int y) {
+		return x * y;
+	}
+	
+	
+	public int div(int x, int y) {
+		return x / y;
+	}
+	
+	public double log(double x) {
+		return Math.log(x);
+	}
+	
+	public static int log2(int n){
+	    if(n <= 0) throw new IllegalArgumentException();
+	    return 31 - Integer.numberOfLeadingZeros(n);
+	}
+	
+	
+	
+	
+	
+}

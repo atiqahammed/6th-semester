@@ -1,0 +1,27 @@
+package Calculator;
+
+public class ScientificCalculator {
+
+	
+	public int sum(int x, int y) {
+		return x + y;
+	}
+	
+	
+	
+	public double sum(double x, int y) {
+		return x + y;
+	}
+	
+	
+	public double sum(int x, double y) {
+		return x + y;
+	}
+	
+	public double sum(double x, double y) {
+		return x + y;
+	}
+	
+	
+	
+}
