@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Calculator.ScientificCalculator&apos; to &apos;ScientificCalculatorTest&apos;&#x0D;&#x0A;- Original project: &apos;jUnitTesting&apos;&#x0D;&#x0A;- Original element: &apos;Calculator.ScientificCalculator&apos;&#x0D;&#x0A;- Renamed element: &apos;Calculator.ScientificCalculatorTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ScientificCalculator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/Test&lt;Calculator{ScientificCalculator.java[ScientificCalculator" matchStrategy="1" name="ScientificCalculatorTest" qualified="false" references="true" similarDeclarations="false" stamp="1533886076632" textual="false" version="1.0"/>
+</session>

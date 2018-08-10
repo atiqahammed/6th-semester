@@ -1,0 +1,73 @@
+package Calculator;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class ScientificCalculatorTest {
+	
+	public static ScientificCalculator calculator;
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		calculator = new ScientificCalculator();
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void testAddInt() {
+		assertEquals(34, calculator.add(17, 17));
+	}
+	
+	@Test
+	public void testSubInt() {
+		assertEquals(-7, calculator.sub(3, 10));
+	}
+	
+	@Test
+	public void testMulInt() {
+		assertEquals(6, calculator.mul(2, 3));
+	}
+	
+	@Test
+	public void testDivInt() {
+		assertEquals(6, calculator.div(36, 6));
+	}
+	
+	@SuppressWarnings("deprecation")
+	@Test
+	public void testLog() {
+		assertEquals(2, calculator.log(1000, 10));
+	}
+	
+	@Test
+	public void testLog2() {
+		assertEquals(3, calculator.log2(8));
+	}
+	
+	@Test
+	public void testlcm() {
+		assertEquals(48, calculator.lcm(12, 16));
+	}
+	
+	@Test
+	public void testGcd() {
+		assertEquals(8, calculator.gcd(24, 16));
+	}
+
+}
