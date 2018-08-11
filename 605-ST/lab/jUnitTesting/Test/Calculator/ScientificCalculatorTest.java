@@ -69,5 +69,17 @@ public class ScientificCalculatorTest {
 	public void testGcd() {
 		assertEquals(8, calculator.gcd(24, 16));
 	}
+	
+	
+	
+	@Test
+	public void testCube() {
+		assertEquals(8, calculator.cube(2));
+	}
+	
+	@Test
+	public void testSqr() {
+		assertEquals(9, calculator.sqr(3));
+	}
 
 }

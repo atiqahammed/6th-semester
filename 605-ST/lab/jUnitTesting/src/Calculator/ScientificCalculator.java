@@ -71,5 +71,17 @@ public class ScientificCalculator {
 	public static int gcd(long x, long y) {
 	    return (int) ((y == 0) ? x : gcd(y, x % y));
 	}
+	
+	public double redian(int x) {
+		return Math.toRadians(x);
+	}
+	
+	public int sqr(int x) {
+		return x*x;
+	}
+	
+	public int cube(int x) {
+		return x*x*x;
+	}
 
 }
