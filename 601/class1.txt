@@ -1,0 +1,36 @@
+pricipals
+__________________________
+transparency
+security
+heterogenety
+openness
+scalability
+fault handeling
+concurency
+QOS
+avilability
+
+___________________________
+
+
+transparency
+______________________
+access
+location
+(access+location) = network transparency
+replication
+failure
+mobility
+performance
+scalable
+_________________
+
+
+
+
+openness
+__________________
+public interface
+uniform community
+standerdization
+________________________
