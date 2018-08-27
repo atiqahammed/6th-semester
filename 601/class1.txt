@@ -46,3 +46,19 @@ middleware
 selfmanagement
 ______________________________
 
+
+
+
+all principles
+_______________________________
+Heterogeneity
+Openness
+Security
+Scalability
+Failure handeling
+Concurancy
+Transparancy
+QOS
+Availability
+____________________________________
+
