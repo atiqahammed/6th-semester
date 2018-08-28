@@ -62,3 +62,19 @@ QOS
 Availability
 ____________________________________
 
+
+
+Security
+_______________________________
+depends on attacker's mind
+
+
+Problems that may occurs
+-Data hiding(EX. credit card number hiding)
+-(source/destinition)Identity(EX. paying in valid source)
+
+Attacks
+-Denial of Service
+-Mobile Code
+-Distributed Denial of Service
+ 
