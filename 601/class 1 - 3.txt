@@ -210,5 +210,14 @@ Architectural model
 			?	What are the entities
 			? 	Communication Technique
 			? 	Roles and responsibilities
-			? 	Physical maping
+			? 	Physical mapping
 			 
+>>> SOA  --service oriented architecture
+>>> COTS --Component Of The Shelf
+
+?	What is interoperability
+
+#	RMI/RPC
+#	remote invocation
+#	Request reply
+#	
