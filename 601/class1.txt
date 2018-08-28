@@ -132,3 +132,30 @@ autonomic system
 autonomic programming
 _____________________________________
 
+
+
+Types
+______________________________________
+1. Distributed Computing System
+2. ''		   Information System
+3. ''		   Embedded system
+
+
+
+
+1. Distributed Computing System
+	- mini comuter
+		terminal(dump- no storage, no procesing power, ), communication network, 
+
+	- Workstation
+		- less powerful than mini computer
+		- process shearing
+		- portable
+
+	- Workstation server
+		- to increase shearing facilities
+		- centralized
+		-  
+	- Processor pool
+
+________________________________________
