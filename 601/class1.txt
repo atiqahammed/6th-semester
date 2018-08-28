@@ -39,7 +39,7 @@ ________________________
 mid will be on 
 ______________________________
 
-distri. system def.
+distri. system def. (tanenbaum er boi theke)
 characteristics
 types
 middleware
@@ -77,4 +77,58 @@ Attacks
 -Denial of Service
 -Mobile Code
 -Distributed Denial of Service
- 
+___________________________________________
+
+
+Concurancy
+___________________________________
+jhon write x = 2
+Alice write x = 5
+
+read write block on sheared resorce
+____________________________________
+
+
+
+
+Failure in Distriduted system
+_____________________
+server down
+
+
+Solution 
+-Detecting (SDN-Software Defined Networking) 
+	it is a way of solving. To solve any probem First we need to detect it.
+-Masking
+	To hide error from user.
+-Tolerating
+	agree with failure
+-Recovery
+
+-Redundancy* + Replication
+	-
+
+
+
+
+_____________________________________________
+
+
+(Distributed orating system. prodip)
+
+
+Way of fault handeling
+______________________________________________
+1. Avoiding
+2. Tolerating
+3. Detection & Recovery
+_____________________________________________________
+
+
+QOS(Quality of service) 
+________________________________
+quality parimeters
+autonomic system
+autonomic programming
+_____________________________________
+
