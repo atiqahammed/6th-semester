@@ -159,3 +159,65 @@ ______________________________________
 	- Processor pool
 
 ________________________________________
+
+
+
+
+
+
+=======================================
+class 3
+
+
+----------------------------------------
+
+
+Distributed system structure
+______________________________________________
+	- Physical model (baseline)
+	- Architectural Model
+	- Architectural Patterns
+-----------------------------------------------
+
+
+
+
+	- Physical model (baseline)
+		variants & evolution of physical model
+		--------------------------------------
+			* Early Distributed system
+			* Contemporary Distributed system
+			* Distributed system of system
+
+	>> all nodes of a early distributed system is static
+
+		>> Internet scale distributed system is a part of baseline
+
+
+	CONTEMPORARY D. S
+	------------------
+		- Mobile Computining
+		- Internet of things (IOT) {n.b. it is very thoug to maintain security in IOT}
+		- Cloud COmputing
+
+=====================================================================================================================================
+
+Architectural model
+	-------------------------------------------------------------------------------------------------
+		#	component and communication
+
+		To understand a ARCHITECTURAL model four questions are very important:
+			?	What are the entities
+			? 	Communication Technique
+			? 	Roles and responsibilities
+			? 	Physical mapping
+			 
+>>> SOA  --service oriented architecture
+>>> COTS --Component Of The Shelf
+
+?	What is interoperability
+
+#	RMI/RPC
+#	remote invocation
+#	Request reply
+#	
