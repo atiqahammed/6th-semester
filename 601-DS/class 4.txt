@@ -1,0 +1,6 @@
+#   public subscribe
+      -   indirect communication
+      >   problem is if a client is down then the server will send the message repeatedly
+      
+#   massage queue
+      -   this just a mediator of between client and server
