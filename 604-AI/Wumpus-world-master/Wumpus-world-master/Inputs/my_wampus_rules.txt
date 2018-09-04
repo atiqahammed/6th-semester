@@ -1,0 +1,148 @@
+############# Wampus world rules bases on game description #############
+
+# 1) RULE-1 : If there is a monster at square (i,j), there is stench at all adjacent squares.
+
+#########################################################################################
+# Below statements can't be added for RULE-1 as they conflict with RULE-6 (check RULE-6).
+# (or (not M_1_1) (and S_2_1 S_1_2))
+# (or (not M_2_1) (and S_1_1 S_2_2 S_3_1))
+# (or (not M_1_2) (and S_1_1 S_2_2 S_1_3))
+# (or (not M_2_2) (and S_1_2 S_2_3 S_3_2 S_2_1))
+#########################################################################################
+
+# Valid statements for RULE-1 #
+(or (not M_3_1) (and S_2_1 S_3_2 S_4_1))
+(or (not M_4_1) (and S_3_1 S_4_2))
+(or (not M_3_2) (and S_2_2 S_3_3 S_4_2 S_3_1))
+(or (not M_4_2) (and S_3_2 S_4_3 S_4_1))
+(or (not M_1_3) (and S_1_4 S_2_3 S_1_2))
+(or (not M_2_3) (and S_1_3 S_2_4 S_3_3 S_2_2))
+(or (not M_3_3) (and S_2_3 S_3_4 S_4_3 S_3_2))
+(or (not M_4_3) (and S_3_3 S_4_4 S_4_2))
+(or (not M_1_4) (and S_1_3 S_2_4))
+(or (not M_2_4) (and S_1_4 S_3_4 S_2_3))
+(or (not M_3_4) (and S_2_4 S_4_4 S_3_3))
+(or (not M_4_4) (and S_3_4 S_4_3))
+
+# end RULE-1
+
+# 2) RULE-2 : If there is stench at square (i,j), there is a monster at one of the adjacent squares.
+
+######################################################################################### 
+# Below statement can't be added for RULE-2 as they conflicts with RULE-6 (check RULE-6).
+# (or (not S_1_1) (xor M_2_1 M_1_2))
+#########################################################################################
+
+# Valid statements for RULE-2 #
+(or (not S_2_1) (xor M_1_1 M_2_2 M_3_1))
+(or (not S_3_1) (xor M_2_1 M_3_2 M_4_1))
+(or (not S_4_1) (xor M_3_1 M_4_2))
+(or (not S_1_2) (xor M_1_1 M_2_2 M_1_3))
+(or (not S_2_2) (xor M_1_2 M_2_3 M_3_2 M_2_1))
+(or (not S_3_2) (xor M_2_2 M_3_3 M_4_2 M_3_1))
+(or (not S_4_2) (xor M_3_2 M_4_3 M_4_1))
+(or (not S_1_3) (xor M_1_4 M_2_3 M_1_2))
+(or (not S_2_3) (xor M_1_3 M_2_4 M_3_3 M_2_2))
+(or (not S_3_3) (xor M_2_3 M_3_4 M_4_3 M_3_2))
+(or (not S_4_3) (xor M_3_3 M_4_4 M_4_2))
+(or (not S_1_4) (xor M_1_3 M_2_4))
+(or (not S_2_4) (xor M_1_4 M_3_4 M_2_3))
+(or (not S_3_4) (xor M_2_4 M_4_4 M_3_3))
+(or (not S_4_4) (xor M_3_4 M_4_3))
+
+# end RULE-2
+
+
+# 3) RULE-3 : If there is a pit at square (i,j), there is breeze at all adjacent squares.
+
+##########################################################################################
+# Below statements can't be added for RULE-3 as they conflicts with RULE-6 (check RULE-6).
+# (or (not P_1_1) (and B_2_1 B_1_2))
+# (or (not P_2_1) (and B_1_1 B_2_2 B_3_1))
+# (or (not P_1_2) (and B_1_1 B_2_2 B_1_3))
+# (or (not P_2_2) (and B_1_2 B_2_3 B_3_2 B_2_1))
+##########################################################################################
+
+# Valid statements for RULE-3 #
+(or (not P_3_1) (and B_2_1 B_3_2 B_4_1))
+(or (not P_4_1) (and B_3_1 B_4_2))
+(or (not P_3_2) (and B_2_2 B_3_3 B_4_2 B_3_1))
+(or (not P_4_2) (and B_3_2 B_4_3 B_4_1))
+(or (not P_1_3) (and B_1_4 B_2_3 B_1_2))
+(or (not P_2_3) (and B_1_3 B_2_4 B_3_3 B_2_2))
+(or (not P_3_3) (and B_2_3 B_3_4 B_4_3 B_3_2))
+(or (not P_4_3) (and B_3_3 B_4_4 B_4_2))
+(or (not P_1_4) (and B_1_3 B_2_4))
+(or (not P_2_4) (and B_1_4 B_3_4 B_2_3))
+(or (not P_3_4) (and B_2_4 B_4_4 B_3_3))
+(or (not P_4_4) (and B_3_4 B_4_3))
+
+# end RULE-3
+
+
+# 4) RULE-4 : If there is breeze at square (i,j), there is a pit at one or more of the adjacent squares.
+
+########################################################################################
+# Below statement can't be added for RULE-4 as they conflicts with RULE-6 (check RULE-6).
+# (or (not B_1_1) (or P_2_1 P_1_2))
+########################################################################################
+
+# Valid statements for RULE-4 #
+(or (not B_2_1) (or P_1_1 P_2_2 P_3_1))
+(or (not B_3_1) (or P_2_1 P_3_2 P_4_1))
+(or (not B_4_1) (or P_3_1 P_4_2))
+(or (not B_1_2) (or P_1_1 P_2_2 P_1_3))
+(or (not B_2_2) (or P_1_2 P_2_3 P_3_2 P_2_1))
+(or (not B_3_2) (or P_2_2 P_3_3 P_4_2 P_3_1))
+(or (not B_4_2) (or P_3_2 P_4_3 P_4_1))
+(or (not B_1_3) (or P_1_4 P_2_3 P_1_2))
+(or (not B_2_3) (or P_1_3 P_2_4 P_3_3 P_2_2))
+(or (not B_3_3) (or P_2_3 P_3_4 P_4_3 P_3_2))
+(or (not B_4_3) (or P_3_3 P_4_4 P_4_2))
+(or (not B_1_4) (or P_1_3 P_2_4))
+(or (not B_2_4) (or P_1_4 P_3_4 P_2_3))
+(or (not B_3_4) (or P_2_4 P_4_4 P_3_3))
+(or (not B_4_4) (or P_3_4 P_4_3))
+
+# end RULE-4
+
+# 5) RULE-5 : There is one and only one monster (no more, no fewer).
+
+#################################################################################### 
+# No need to consider symbols M_1_1, M_1_2, M_2_1, M_2_2 as per RULE-6.
+####################################################################################
+
+# Valid statements for RULE-5 #
+(xor M_3_1 M_4_1 M_3_2 M_4_2 M_1_3 M_2_3 M_3_3 M_4_3 M_1_4 M_2_4 M_3_4 M_4_4)
+
+# end RULE-5
+
+
+# 6) RULE-6 : Squares (1,1), (1,2), (2,1), (2,2) have no monsters and no pits.
+
+# Valid statements for RULE-6 #
+(NOT M_1_1)
+(NOT M_1_2)
+(NOT M_2_1)
+(NOT M_2_2)
+(NOT P_1_1)
+(NOT P_1_2)
+(NOT P_2_1)
+(NOT P_2_2)
+(NOT S_1_1)
+(NOT B_1_1)
+
+# end RULE-5
+
+
+# 7) RULE-7 : The number of pits can be between 1 and 11.
+
+#################################################################################### 
+# Can't include symbols P_1_1, P_1_2, P_2_1, P_2_2 as per RULE-6.
+####################################################################################
+
+# Valid statements for RULE-7 #
+# sample : (not (or (not (or a b ....)) (and a b ....)))
+(not (or (not (or P_3_1 P_4_1 P_3_2 P_4_2 P_1_3 P_2_3 P_3_3 P_4_3 P_1_4 P_2_4 P_3_4 P_4_4)) (and P_3_1 P_4_1 P_3_2 P_4_2 P_1_3 P_2_3 P_3_3 P_4_3 P_1_4 P_2_4 P_3_4 P_4_4)))
+
+#end RULE-7
