@@ -14,6 +14,10 @@ public class UDPServer {
 				aSocket.receive(request);
 				DatagramPacket reply = new DatagramPacket(request.getData(), request.getLength()-1, request.getAddress(),
 						request.getPort());
+				
+				String s = new String(request.getData());
+				
+				System.out.println(s + " " + request.getAddress());
 				aSocket.send(reply);
 			}
 		} catch (SocketException e) {
