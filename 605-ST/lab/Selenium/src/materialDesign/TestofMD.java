@@ -41,7 +41,6 @@ public class TestofMD {
 		
 		driver.findElement(By.xpath("//*[@id='color-theme-creation']/div/div/div[3]/div[2]/div[2]/div[1]/section/div/figure/div/video")).click();
 		
-		
 		//driver.quit();
 
 	}
