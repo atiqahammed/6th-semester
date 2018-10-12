@@ -26,8 +26,8 @@ public class TestofMD {
 		
 		
 		
-		driver.findElement(By.xpath("/html/body/nav/ul[2]/li[3]/button")).click();
-		driver.findElement(By.xpath("//a[@href ='./foundation-overview']")).click();
+		driver.findElement(By.xpath("/html/body/nav/ul[2]/li[1]/a")).click();
+		//driver.findElement(By.xpath("//a[@href ='./foundation-overview']")).click();
 		
 		
 		JavascriptExecutor jsx = (JavascriptExecutor)driver;
