@@ -1,0 +1,106 @@
+{
+  "id": "82b87ca4-c701-4a99-bd92-bca7c9e4c016",
+  "version": "1.1",
+  "name": "Du",
+  "url": "http://www.du.ac.bd",
+  "tests": [{
+    "id": "bf4f5002-3c3e-431d-9b2a-9d4cab6d958a",
+    "name": "test1",
+    "commands": [{
+      "id": "42f95be2-e187-492b-9b91-c2bb55807cfc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af06e461-b61a-4571-ae46-c2eb52858fc6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "893x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a710f53-bb6d-4002-ab1e-a53670b86c14",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Faculty of Arts",
+      "targets": [
+        ["linkText=Faculty of Arts", "linkText"],
+        ["css=.dropdown:nth-child(3) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Faculty of Arts')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.du.ac.bd/main_menu/academic/facarts']", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa019a8c-286f-401c-bc7e-1da9e2109f57",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Faculty of Sciences",
+      "targets": [
+        ["linkText=Faculty of Sciences", "linkText"],
+        ["css=.dropdown:nth-child(3) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Faculty of Sciences')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.du.ac.bd/main_menu/academic/facsci']", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a1f6064-b05e-447c-8a7f-84da76df53e5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Institutes",
+      "targets": [
+        ["linkText=Institutes", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Institutes')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[3]/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.du.ac.bd/main_menu/academic/inst']", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80b0142f-98b0-42ee-b602-c85ae62b6082",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Institute of Information Technology",
+      "targets": [
+        ["linkText=Institute of Information Technology", "linkText"],
+        ["css=li:nth-child(15) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Institute of Information Technology')]", "xpath:link"],
+        ["xpath=//section[@id='middle']/div/div/div/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.du.ac.bd/academic/department_item/IIT']", "xpath:href"],
+        ["xpath=//div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebb3faf1-ebf2-4000-b255-cdc47b3a1558",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Faculty Members",
+      "targets": [
+        ["linkText=Faculty Members", "linkText"],
+        ["css=div.widget > ul > li > a", "css"],
+        ["css=#middle li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Faculty Members')]", "xpath:link"],
+        ["xpath=//section[@id='middle']/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.du.ac.bd/academic/department_item_details/faculty/IIT']", "xpath:href"],
+        ["xpath=//div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ecac95b8-782f-47c6-851d-cc560abe6780",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bf4f5002-3c3e-431d-9b2a-9d4cab6d958a"]
+  }],
+  "urls": ["http://www.du.ac.bd/"],
+  "plugins": []
+}
