@@ -21,9 +21,14 @@ public class TestLib {
 		
 		WebElement element = driver.findElement(By.xpath("//*[@id='h.p_rBSA5YezxeRZ']/div/div/div/a/img"));
 		new Actions(driver).moveToElement(element).perform();
-		
-		
 		driver.findElement(By.xpath("//*[@id='h.p_rBSA5YezxeRZ']/div/div/div/a/img")).click();
+		driver.navigate().back();
+		
+		
+		WebElement element1 = driver.findElement(By.xpath("//*[@id='h.p_72gg9wA8jR8Y']/div/div/div/a/img"));
+		new Actions(driver).moveToElement(element1).perform();
+		element1.click();
+		
 		
 		
 	}
