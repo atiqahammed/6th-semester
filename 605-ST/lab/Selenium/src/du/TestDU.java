@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class TestDU {
 
@@ -14,19 +15,20 @@ public class TestDU {
 		
 		
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://www.du.ac.bd/");
+		driver.get("http://www.btv.gov.bd/");
 		
 		
 		
-		driver.findElement(By.xpath("//*[@id='header']/nav/div/div[2]/ul/li[3]/a")).click();
-		driver.findElement(By.xpath("//*[@id='header']/nav/div/div[2]/ul/li[3]/ul/li[1]/a")).click();
-		driver.findElement(By.xpath("//*[@id='header']/nav/div/div[2]/ul/li[3]/a")).click();
-		driver.findElement(By.xpath("//*[@id='header']/nav/div/div[2]/ul/li[3]/ul/li[2]/a")).click();
-		driver.findElement(By.xpath("//*[@id='header']/nav/div/div[2]/ul/li[3]/a")).click();
-		driver.findElement(By.xpath("//*[@id='header']/nav/div/div[2]/ul/li[3]/ul/li[11]/a")).click();
-		driver.findElement(By.xpath("//*[@id='middle']/div/div/div[1]/div/ul/li[8]/a")).click();
-		driver.findElement(By.xpath("//*[@id='middle']/div/div/div[1]/div[1]/ul/li[1]/a")).click();
-	
+		driver.findElement(By.xpath("//*[@id='dawgdrops']/ul/li[2]")).click();
+		driver.findElement(By.xpath("//*[@id='dawgdrops']/ul/li[3]")).click();
+		
+		
+		WebElement event = driver.findElement(By.xpath("//*[@id='right-content']/div[5]/table/tbody/tr[3]/td/a/span/span"));
+		new Actions(driver).moveToElement(event).perform();
+		event.click();
+		
+		driver.findElement(By.xpath("//*[@id='lang_form']/button")).click();
+		
 		
 	}
 }
