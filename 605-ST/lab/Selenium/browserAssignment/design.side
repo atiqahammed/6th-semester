@@ -1,0 +1,151 @@
+{
+  "id": "b128c3a3-7cd1-494c-8adc-0f831fb0c232",
+  "version": "1.1",
+  "name": "design",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "5da2945b-8948-494c-b5dd-23b1c48c74c8",
+    "name": "test1",
+    "commands": [{
+      "id": "d67a7489-424f-46d8-9519-acce148162c1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9f58ab9-a8f9-453e-bf0e-4be1a8850ca0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "893x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b167b677-f047-4be2-ac74-ea8c6c3edfa6",
+      "comment": "",
+      "command": "type",
+      "target": "id=lst-ib",
+      "targets": [
+        ["id=lst-ib", "id"],
+        ["name=q", "name"],
+        ["css=#lst-ib", "css"],
+        ["css=#lst-ib", "css:finder"],
+        ["xpath=//input[@id='lst-ib']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc0']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "material design"
+    }, {
+      "id": "57ea1c0f-20ec-44b7-852e-3cd3bab99d5f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=lst-ib",
+      "targets": [
+        ["id=lst-ib", "id"],
+        ["name=q", "name"],
+        ["css=#lst-ib", "css"],
+        ["css=#lst-ib", "css:finder"],
+        ["xpath=//input[@id='lst-ib']", "xpath:attributes"],
+        ["xpath=//div[@id='gs_lc0']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ecbde916-a2a6-4162-ae60-2916b8d40654",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3.LC20lb",
+      "targets": [
+        ["css=h3.LC20lb", "css"],
+        ["css=.bkWMgd:nth-child(1) .g:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c68537a-ea9d-4ee1-a0a6-fabc7e54e867",
+      "comment": "",
+      "command": "click",
+      "target": "css=i.material-icons.header__hamburger-icon",
+      "targets": [
+        ["css=i.material-icons.header__hamburger-icon", "css"],
+        ["css=.header__hamburger-icon", "css:finder"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c2cf360-07db-4a85-9ebe-a5bf83295871",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Foundation overview",
+      "targets": [
+        ["linkText=Foundation overview", "linkText"],
+        ["css=.mdc-ripple-upgraded--foreground-activation", "css:finder"],
+        ["xpath=//a[contains(text(),'Foundation overview')]", "xpath:link"],
+        ["xpath=//a[contains(@href, './foundation-overview')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffb5b3fa-9d46-482b-9148-fd016ad0af45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-ripple-upgraded--foreground-activation",
+      "targets": [
+        ["css=.mdc-ripple-upgraded--foreground-activation", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f52cd7a5-33e0-4da3-b2cd-53f6ef09cbb4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,252)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55d45fdc-7ec1-4150-a2ae-a90a8473231d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.inline-media:nth-child(4) .lightbox__image",
+      "targets": [
+        ["css=.inline-media:nth-child(4) .lightbox__image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://storage.googleapis.com/spec-host-backup/mio-design%2Fassets%2F1G9utlx7O2-lxBVs5e3BbWq7kbAdXMwOE%2Fcolor-colorsystem-usagepalettes-1.png')]", "xpath:img"],
+        ["xpath=//section[@id='color-usage-palettes']/div/div/div[2]/section/div/figure/div/div/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd1cb450-2da6-46dd-b415-7e68a3db3a73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-ripple-upgraded--foreground-activation",
+      "targets": [
+        ["css=.mdc-ripple-upgraded--foreground-activation", "css:finder"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf260b8f-a927-44b2-9df3-ed60ce5901c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.is-hover > .video-player__video",
+      "targets": [
+        ["css=.is-hover > .video-player__video", "css:finder"],
+        ["xpath=//section[@id='color-theme-creation']/div/div/div[3]/div[2]/div[2]/div/section/div/figure/div/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c73f9486-7489-4bad-b16f-1eb78a63c5a3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5da2945b-8948-494c-b5dd-23b1c48c74c8"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

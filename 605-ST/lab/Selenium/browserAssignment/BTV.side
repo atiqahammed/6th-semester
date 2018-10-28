@@ -1,0 +1,89 @@
+{
+  "id": "3aea3d3e-ece3-4ca1-ad93-4554c4d3bdf6",
+  "version": "1.1",
+  "name": "BTV",
+  "url": "http://btv.gov.bd",
+  "tests": [{
+    "id": "2a088a50-a09f-4775-b346-d743da14e108",
+    "name": "test1",
+    "commands": [{
+      "id": "44b8b10a-9d07-4e26-8ab7-306d71e3a2d7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb5a64c9-185f-482b-9afd-bbe254fbcf60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7795e4ab-ac2a-42e6-a71a-2724002e0dbb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=আমাদের বিষয়",
+      "targets": [
+        ["linkText=আমাদের বিষয়", "linkText"],
+        ["css=.hover", "css:finder"],
+        ["xpath=//a[contains(text(),'আমাদের বিষয়')]", "xpath:link"],
+        ["xpath=//div[@id='dawgdrops']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "978d3594-de0e-4a1c-bc6d-daa87a29e636",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=অনুষ্ঠান",
+      "targets": [
+        ["linkText=অনুষ্ঠান", "linkText"],
+        ["css=.hover", "css:finder"],
+        ["xpath=//a[contains(text(),'অনুষ্ঠান')]", "xpath:link"],
+        ["xpath=//div[@id='dawgdrops']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46540dc6-cf33-47d0-9d56-4684cb08bb34",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2012)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f21e18db-9fa9-4297-8d8f-9a54e753d324",
+      "comment": "",
+      "command": "click",
+      "target": "css=span > span",
+      "targets": [
+        ["css=span > span", "css"],
+        ["css=span > span", "css:finder"],
+        ["xpath=//div[@id='right-content']/div[5]/table/tbody/tr[3]/td/a/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "842330c6-2617-44f4-8b6b-8e761165a805",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f12d5edc-2742-4031-a442-9c53f56fe0cd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2a088a50-a09f-4775-b346-d743da14e108"]
+  }],
+  "urls": ["http://btv.gov.bd/"],
+  "plugins": []
+}
