@@ -2,6 +2,18 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+<<<<<<< HEAD
+	<classpathentry kind="lib" path="C:/Users/Atiq/Downloads/Compressed/client-combined-3.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Atiq/Downloads/Compressed/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Atiq/Downloads/Compressed/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Atiq/Downloads/Compressed/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Atiq/Downloads/Compressed/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Atiq/Downloads/Compressed/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Atiq/Downloads/Compressed/libs/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Atiq/Downloads/Compressed/libs/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Atiq/Downloads/Compressed/libs/okhttp-3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Atiq/Downloads/Compressed/libs/okio-1.14.1.jar"/>
+=======
 	<classpathentry kind="lib" path="C:/Users/atiqa/Downloads/client-combined-3.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/atiqa/Downloads/client-combined-3.14.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/atiqa/Downloads/libs/byte-buddy-1.8.15.jar"/>
@@ -13,5 +25,6 @@
 	<classpathentry kind="lib" path="C:/Users/atiqa/Downloads/libs/httpcore-4.4.9.jar"/>
 	<classpathentry kind="lib" path="C:/Users/atiqa/Downloads/libs/okhttp-3.10.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/atiqa/Downloads/libs/okio-1.14.1.jar"/>
+>>>>>>> 21ba35b99dece99f7197a7f5dde6e9df7957181f
 	<classpathentry kind="output" path="bin"/>
 </classpath>
