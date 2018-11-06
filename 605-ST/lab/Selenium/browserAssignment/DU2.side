@@ -1,0 +1,147 @@
+{
+  "id": "988ce442-ec80-432d-a9f6-b219e8a7c81a",
+  "version": "1.1",
+  "name": "DU2",
+  "url": "http://www.du.ac.bd",
+  "tests": [{
+    "id": "a0fb5868-e878-41f2-8b65-e04c61d61aeb",
+    "name": "test1",
+    "commands": [{
+      "id": "e93e6ee8-b649-44c3-b679-d63d2ea857b0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9515bcec-1fee-4b69-9db6-75cc27bdffec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1209x452",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac22398c-dbd7-4b21-ab47-eb1931439987",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Academic",
+      "targets": [
+        ["linkText=Academic", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Academic')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c89f947-db47-4689-8889-f9557366660f",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.item.active > div.container",
+      "targets": [
+        ["css=div.item.active > div.container", "css"],
+        ["css=.active > .container", "css:finder"],
+        ["xpath=//section[@id='main-slider']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1240f31-c048-4b6f-922a-ce61946efd00",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Academic",
+      "targets": [
+        ["linkText=Academic", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Academic')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f234553-3dcc-4299-878c-30bf9c82c401",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Faculty of Arts",
+      "targets": [
+        ["linkText=Faculty of Arts", "linkText"],
+        ["css=li.dropdown.open > ul.dropdown-menu > li > a", "css"],
+        ["css=.open li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Faculty of Arts')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.du.ac.bd/main_menu/academic/facarts']", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "040c0b09-b1a2-48b4-a4e9-fc3fdeb8dde6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Academic",
+      "targets": [
+        ["linkText=Academic", "linkText"],
+        ["css=.dropdown:nth-child(3) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Academic')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7ac39da-ce88-4bcb-b025-6e14610f67cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Institutes",
+      "targets": [
+        ["linkText=Institutes", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(11) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Institutes')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/div/div[2]/ul/li[3]/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.du.ac.bd/main_menu/academic/inst']", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5568bf38-1b53-4b00-aa99-a6dcf292e6e7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Institute of Information Technology",
+      "targets": [
+        ["linkText=Institute of Information Technology", "linkText"],
+        ["css=li:nth-child(15) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Institute of Information Technology')]", "xpath:link"],
+        ["xpath=//section[@id='middle']/div/div/div/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.du.ac.bd/academic/department_item/IIT']", "xpath:href"],
+        ["xpath=//div/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd63f124-01f0-4586-8f50-74c5e7441f37",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Faculty Members",
+      "targets": [
+        ["linkText=Faculty Members", "linkText"],
+        ["css=div.widget > ul > li > a", "css"],
+        ["css=#middle li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Faculty Members')]", "xpath:link"],
+        ["xpath=//section[@id='middle']/div/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.du.ac.bd/academic/department_item_details/faculty/IIT']", "xpath:href"],
+        ["xpath=//div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9ed20b34-3c35-4534-b490-71298d896315",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a0fb5868-e878-41f2-8b65-e04c61d61aeb"]
+  }],
+  "urls": ["http://www.du.ac.bd/"],
+  "plugins": []
+}
